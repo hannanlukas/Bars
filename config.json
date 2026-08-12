@@ -1,0 +1,34 @@
+[
+	{
+	  "initialValues": {
+		"showTitle": true,
+		"showYGrid": true,
+		"showXGrid": true,
+		"showYValues": true,
+		"showXValues": true,
+		"showXLabel": true,
+		"showYLabel": true,
+		"showZeroLine": true,
+		"barWidth": 50.0,
+		"leftPanelValueCount": 9
+	  },
+	"barChartDetails": {
+		"barChartTitle": "Worthiness of fruit",
+		"xValueLabel": "Cost/Fruit Type",
+		"yValueLabel": "Enjoyment Rating",
+		"barChartInformation": "This bar chart compares the cost of fruit against how much the fruit is enjoyed, with the maximum rating being 10, and the minimum rating being -10."
+	  },
+	  "bars": [
+		{"xValue": 1.50, "yValue": 5.0, "color": {"r": 255, "g": 0, "b": 0, "a": 255, "random": false}, "xLabel": "Apple"},
+		{"xValue": 1.00, "yValue": -2.0, "color": {"r": 0, "g": 255, "b": 0, "a": 255, "random": false}, "xLabel": "Pear"},
+		{"xValue": 0.80, "yValue": 9.0, "color": {"r": 255, "g": 163, "b": 0, "a": 255, "random": false}, "xLabel": "Orange"},
+		{"xValue": 1.80, "yValue": 4.0, "color": {"r": 248, "g": 255, "b": 0, "a": 255, "random": false}, "xLabel": "Banana"},
+		{"xValue": 2.50, "yValue": 10.0, "color": {"r": 220, "g": 20, "b": 60, "a": 255, "random": false}, "xLabel": "Strawberry"},
+		{"xValue": 3.00, "yValue": 8.0, "color": {"r": 138, "g": 43, "b": 226, "a": 255, "random": false}, "xLabel": "Blueberry"},
+		{"xValue": 4.50, "yValue": 7.5, "color": {"r": 106, "g": 13, "b": 173, "a": 255, "random": false}, "xLabel": "Mango"},
+		{"xValue": 5.00, "yValue": -8.0, "color": {"r": 143, "g": 188, "b": 143, "a": 255, "random": false}, "xLabel": "Durian"},
+		{"xValue": 3.50, "yValue": -5.0, "color": {"r": 255, "g": 20, "b": 147, "a": 255, "random": false}, "xLabel": "Dragonfruit"},
+		{"xValue": 2.20, "yValue": 6.5, "color": {"r": 50, "g": 205, "b": 50, "a": 255, "random": false}, "xLabel": "Kiwi"}
+	  ]
+	}
+]

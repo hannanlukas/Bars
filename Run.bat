@@ -1,0 +1,1 @@
+start barchart.exe "...\config.json"
