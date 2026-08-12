@@ -1,4 +1,7 @@
 
+<h1 align="center">Bars</h1>
+
+
 **Overview**
 
 Bars is a bar chart application created with flutter providing an infinitely scrollable and zoomable dynamic canvas, with built in customisation features to view your data to your desire. Relying entirely on a json config file specified by the launch parameters which provides the initial configuration and bar data, the application can be used across any language to easily view sets of data in a bar chart format.
