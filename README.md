@@ -25,9 +25,9 @@ A modern, fully customisable bar chart viewer designed to provide the user full 
 
 **Getting Started**
 
-1. Download and extract the latest release.
-2. Open a command prompt in the extract folder.
-3. Start the application by running : ‘start barchart.exe “[path to config.json]”’
+1. Download and extract the [latest release](https://github.com/hannanlukas/Bars/releases).
+3. Open a command prompt in the extract folder.
+4. Start the application by running : ‘start barchart.exe “[path to config.json]”’
 
 Example : `start barchart.exe "C:/config.json"`
 
