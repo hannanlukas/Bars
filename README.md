@@ -31,7 +31,82 @@ A modern, fully customisable bar chart viewer designed to provide the user full 
 
 Example : `start barchart.exe "C:/config.json"`
 
-*Note: replace the [path to config.json] with the path to your configuration file.*
+*Note: replace the [path to config.json] with the path to your configuration file. You can use the example configuation below to get started.*
+
+<details>
+  <summary><b>Example Configuration</b></summary>
+  
+  ```json
+[
+    {
+  	"settings": {
+  	  "title": "Worthiness Of Fruit",
+  	  "xLabelForValues": "Cost",
+  	  "xLabelForNames": "Fruit Type",
+  	  "yLabel": "Enjoyment Rating",
+  	  "description": "This bar chart compares the cost of fruit against how much the fruit is enjoyed, with the maximum rating being 10, and the minimum rating being -10.",
+  	  "showTitle": true,
+  	  "showYGrid": true,
+  	  "showXGrid": true,
+  	  "showYValues": true,
+  	  "showXValues": true,
+  	  "showXLabel": true,
+  	  "showYLabel": true,
+  	  "showZeroLine": true,
+  	  "barWidth": 50.0,
+  	  "leftPanelValueCount": 9,
+  	  "xName": "Cost",
+  	  "yName": "Rating",
+  	  "showLabelsInBottomPanel": false,
+  	  "resizerWidth": 3.0,
+  	  "yValueFloatingPointDigits": 2,
+  	  "barXSpacing": 25.0,
+  	  "rotateXLabels": true,
+  	  "showResizerLines": false,
+  	  "enableCursorTracker": true,
+  	  "enableBarOverlays": true,
+  	  "staticYGrid": false,
+  	  "xGridOpacity": 0.1,
+  	  "yGridOpacity": 0.1,
+  	  "topPanelBackgroundColor": {"r": 250, "g": 250, "b": 250, "a": 255},
+  	  "leftPanelBackgroundColor": {"r": 250, "g": 250, "b": 250, "a": 255},
+  	  "barChartBackgroundColor": {"r": 255, "g": 255, "b": 255, "a": 255},
+  	  "bottomPanelBackgroundColor": {"r": 250, "g": 250, "b": 250, "a": 255},
+  	  "titleFontSize": 24.0,
+  	  "titleFontColor": {"r": 0, "g": 0, "b": 0, "a": 255},
+  	  "xLabelFontSize": 16.0,
+  	  "xLabelFontColor": {"r": 0, "g": 0, "b": 0, "a": 255},
+  	  "yLabelFontSize": 16.0,
+  	  "yLabelFontColor": {"r": 0, "g": 0, "b": 0, "a": 255},
+  	  "yValuesFontSize": 12.0,
+  	  "yValuesFontColor": {"r": 0, "g": 0, "b": 0, "a": 255},
+  	  "xValuesFontSize": 12.0,
+  	  "xValuesFontColor": {"r": 0, "g": 0, "b": 0, "a": 255}
+  	},
+  	"constraints": {
+  	  "leftPanelFlexX" : 1,
+  	  "rightPanelFlexX": 9,
+  	  "topPanelFlexY": 1,
+  	  "barChartFlexY": 8,
+  	  "bottomPanelFlexY": 1
+  	},
+  	"bars": [
+  	  {"xValue": 1.50, "yValue": 5.0, "color": {"r": 255, "g": 0, "b": 0, "a": 255, "random": false}, "xLabel": "Apple", "circularRadius" : 0.0, "outlined" : false, "outlineWidth" : 1.0},
+  	  {"xValue": 1.00, "yValue": -2.0, "color": {"r": 0, "g": 255, "b": 0, "a": 255, "random": false}, "xLabel": "Pear", "circularRadius" : 0.0, "outlined" : false, "outlineWidth" : 1.0},
+  	  {"xValue": 0.80, "yValue": 9.0, "color": {"r": 255, "g": 163, "b": 0, "a": 255, "random": false}, "xLabel": "Orange", "circularRadius" : 0.0, "outlined" : false, "outlineWidth" : 1.0},
+  	  {"xValue": 1.80, "yValue": 4.0, "color": {"r": 248, "g": 255, "b": 0, "a": 255, "random": false}, "xLabel": "Banana", "circularRadius" : 0.0, "outlined" : false, "outlineWidth" : 1.0},
+  	  {"xValue": 2.50, "yValue": 10.0, "color": {"r": 220, "g": 20, "b": 60, "a": 255, "random": false}, "xLabel": "Strawberry", "circularRadius" : 0.0, "outlined" : false, "outlineWidth" : 1.0},
+  	  {"xValue": 3.00, "yValue": 8.0, "color": {"r": 138, "g": 43, "b": 226, "a": 255, "random": false}, "xLabel": "Blueberry", "circularRadius" : 0.0, "outlined" : false, "outlineWidth" : 1.0},
+  	  {"xValue": 4.50, "yValue": 7.5, "color": {"r": 106, "g": 13, "b": 173, "a": 255, "random": false}, "xLabel": "Mango", "circularRadius" : 0.0, "outlined" : false, "outlineWidth" : 1.0},
+  	  {"xValue": 5.00, "yValue": -8.0, "color": {"r": 143, "g": 188, "b": 143, "a": 255, "random": false}, "xLabel": "Durian", "circularRadius" : 0.0, "outlined" : false, "outlineWidth" : 1.0},
+  	  {"xValue": 3.50, "yValue": -5.0, "color": {"r": 255, "g": 20, "b": 147, "a": 255, "random": false}, "xLabel": "Dragonfruit", "circularRadius" : 0.0, "outlined" : false, "outlineWidth" : 1.0},
+  	  {"xValue": 20.0, "yValue": 6.5, "color": {"r": 50, "g": 205, "b": 50, "a": 255, "random": false}, "xLabel": "Kiwi", "circularRadius" : 0.0, "outlined" : false, "outlineWidth" : 1.0}
+  	]
+    }
+]
+```
+
+</details>
 
 **Dependencies**
 
